@@ -1,0 +1,43 @@
+#priceListContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #66FCF1;
+    width: 100%;
+}
+
+.tables {
+    width: 40%;
+    margin: 5vh;
+}
+
+#leftTables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#secondTable {
+    margin-top: 50px;
+}
+
+table {
+    min-width: 200px;
+}
+
+table, td {
+    border: 1px solid #45A29E;
+}
+
+th, td {
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #0B0C10;
+}
+
+tr:nth-child(even) {
+    background-color: #1F2833;
+}

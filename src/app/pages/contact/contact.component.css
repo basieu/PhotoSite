@@ -1,0 +1,44 @@
+#ContactContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    width: 20px;
+    filter: invert(58%) sepia(75%) saturate(299%) hue-rotate(128deg) brightness(85%) contrast(87%);
+    margin-right: 5px;
+}
+
+.contactHeader {
+    color: #45A29E;
+    text-shadow: 1px 1px #66FCF1;
+}
+
+.datas {
+    color: #45A29E;
+}
+
+h3 {
+    font-size: 3.5vw;
+}
+
+h5 {
+    font-size: 2vw;
+}
+
+#maps, #addresses {
+    width: 40%;
+    margin: 5vh;
+}
+
+#location {
+    width: 100%;
+    height: 50vh;
+}
+
+#contactHours {
+    margin-top: 2rem;
+}

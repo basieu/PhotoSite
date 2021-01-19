@@ -1,0 +1,51 @@
+#galleryContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}
+
+.img-slides {
+    width: 80%;
+    height: 75vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-column {
+    float: left;
+    width: 10%;
+}
+
+#images {
+    height: 15vh;
+}
+
+.slide-modal {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-modal-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+}
+
+.slide-modal-content .image-column {
+    padding: 0;
+}
+
+.activated {
+    border-bottom: 2px solid red;
+}

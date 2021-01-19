@@ -1,0 +1,14 @@
+<div id="galleryContent">
+        <div id="imgModal" class="slide-modal">
+             <div class="slide-modal-content">
+                     <div class="img-slides" *ngFor="let image of images; let i=index">
+                             <img src="{{image.url}}" (load)="openModal();currentSlide(i+1)">
+                     </div>
+                     <div class="image-row">
+                             <div class="image-column" *ngFor="let image of images; let i=index">
+                                     <img class="images" id="images" (click)="currentSlide(i+1)" src="{{image.url}}">
+                             </div>
+                     </div>
+             </div>   
+        </div>
+</div>
